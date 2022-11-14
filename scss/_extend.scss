@@ -1,0 +1,13 @@
+/*EXTEND*/
+
+
+.parrafoImg {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.parrafoImagen {
+    @extend .parrafoImg;
+    font-weight: bold;
+}

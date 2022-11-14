@@ -1,0 +1,14 @@
+.contenedorPreguntas {
+    display: flex;
+    justify-content: center;
+    font-size: $tam-fuente - 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgrey;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.enlacesQuestions {
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,128 @@
+/*VARIABLES*/ /*EXTEND*/
+.parrafoImg, .parrafoImagen {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.parrafoImagen {
+  font-weight: bold;
+}
+
+/*MIXIN*/
+.picture {
+  border: 3px solid white;
+}
+
+.barraLateral {
+  color: white;
+  font-size: 30px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin: 30px auto;
+  width: 400px;
+  box-shadow: 7px 13px 37px black;
+  border: 2px solid black;
+  text-shadow: #000000;
+  text-align: center;
+}
+
+.inputButton {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4px;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.inputButton:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+}
+
+legend {
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.inputForm {
+  text-align: center;
+  width: 100%;
+}
+
+.myh2 {
+  color: white;
+}
+
+.historia {
+  text-align: center;
+}
+
+.parrafoHistoria {
+  font-size: 22px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.final {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contenedorPreguntas {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: darkgrey;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.enlacesQuestions {
+  text-decoration: none;
+  color: white;
+}
+
+.picadasMain {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.pictureOne {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 30px;
+  padding: 15px;
+}
+
+.container-fluid {
+  background-image: linear-gradient(#95cdcc, #000000);
+}
+
+@media (min-width: 768px) {
+  aside {
+    color: aqua;
+  }
+}
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+
+/*# sourceMappingURL=estilo.css.map */

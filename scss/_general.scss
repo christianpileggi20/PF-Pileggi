@@ -1,0 +1,15 @@
+.container-fluid {
+    background-image: $color-fondo;
+}
+
+
+@media (min-width:768px) {
+    aside {
+        color: aqua;
+    }
+}
+
+h1 {
+    text-align: center;
+    @include cambios;
+    }
