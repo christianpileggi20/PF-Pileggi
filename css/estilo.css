@@ -7,6 +7,7 @@
 .parrafoImagen {
   font-weight: bold;
   color: white;
+  margin-top: 20px;
 }
 
 /*MIXIN*/
@@ -81,6 +82,11 @@ legend {
   color: white;
 }
 
+.footerButton {
+  background-color: #14213D;
+  border: #14213D;
+}
+
 .historia {
   text-align: center;
 }
@@ -95,6 +101,7 @@ legend {
 .final {
   text-align: center;
   text-transform: uppercase;
+  color: #14213D;
 }
 
 .contenedorPreguntas {
@@ -102,7 +109,6 @@ legend {
   justify-content: center;
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #14213D;
   margin: 0 auto;
   padding: 20px;
 }
@@ -124,8 +130,8 @@ legend {
   max-width: 350px;
   height: 300px;
   object-fit: cover;
-  border-radius: 30px;
-  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 7px 13px 37px white;
 }
 
 .containerFluid {
