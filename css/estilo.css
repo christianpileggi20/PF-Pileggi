@@ -6,6 +6,7 @@
 
 .parrafoImagen {
   font-weight: bold;
+  color: white;
 }
 
 /*MIXIN*/
@@ -17,8 +18,20 @@
 }
 
 .barraLateral {
+  background-color: black;
   color: white;
   font-size: 30px;
+}
+
+.navbar {
+  --bs-navbar-color: white;
+}
+
+.barraUno {
+  background-color: #14213D;
+  font-size: 25px;
+  height: 150px;
+  width: 100vw;
 }
 
 .formulario {
@@ -28,11 +41,12 @@
   align-items: center;
   font-size: 20px;
   margin: 30px auto;
-  width: 400px;
-  box-shadow: 7px 13px 37px black;
+  width: 350px;
+  box-shadow: 7px 13px 37px white;
   border: 2px solid black;
-  text-shadow: #000000;
+  text-shadow: white;
   text-align: center;
+  color: white;
 }
 
 .inputButton {
@@ -72,6 +86,7 @@ legend {
 }
 
 .parrafoHistoria {
+  color: white;
   font-size: 22px;
   margin: 0 auto;
   padding: 20px;
@@ -87,7 +102,7 @@ legend {
   justify-content: center;
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: darkgrey;
+  background-color: #14213D;
   margin: 0 auto;
   padding: 20px;
 }
@@ -113,8 +128,10 @@ legend {
   padding: 15px;
 }
 
-.container-fluid {
-  background-image: linear-gradient(#95cdcc, #000000);
+.containerFluid {
+  background-color: #000000;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
 }
 
 @media (min-width: 768px) {
@@ -122,10 +139,18 @@ legend {
     color: aqua;
   }
 }
+@media (max-width: 375px) {
+  .formulario {
+    width: 250px;
+  }
+}
 h1 {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 40px;
+  margin-top: 10px;
 }
 
 /*# sourceMappingURL=estilo.css.map */

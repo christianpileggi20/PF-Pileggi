@@ -1,5 +1,8 @@
-.container-fluid {
-    background-image: $color-fondo;
+.containerFluid {
+    background-color: #000000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    
 }
 
 
@@ -9,7 +12,16 @@
     }
 }
 
+@media (max-width: 375px) {
+    .formulario {
+        width: 250px;
+    }
+    }
+
 h1 {
-    text-align: center;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+     text-align: center;
     @include cambios;
+    margin-top: 10px;
     }

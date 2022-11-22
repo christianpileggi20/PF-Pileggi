@@ -1,9 +1,16 @@
-.barraUno {
-    background-image: linear-gradient(to left, #6d989e, #4c4c4c);
-    font-size: 80px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 100vw;
+.navbar {
+    --bs-navbar-color: white;
     
-
+    
 }
+
+.barraUno {
+    
+    background-color: #14213D;
+    font-size: 25px;
+    height: 150px;
+    width: 100vw;
+}
+
+
 
