@@ -11,6 +11,11 @@
 /*MIXIN*/
 .picture {
   border: 3px solid white;
+  object-fit: cover;
+  width: 100vh;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .barraLateral {
