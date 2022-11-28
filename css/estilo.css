@@ -1,4 +1,4 @@
-
+/*VARIABLES*/ /*EXTEND*/
 .parrafoImg, .parrafoImagen {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -10,7 +10,7 @@
   margin-top: 20px;
 }
 
-
+/*MIXIN*/
 .picture {
   border: 3px solid white;
   object-fit: cover;
