@@ -15,12 +15,14 @@
 }
 
 .inputButton {
+    
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding: 4px;
     border-radius: 4px;
     margin: 5px;
+    background-color:  #14213D;
 
 }
 .inputButton:hover {

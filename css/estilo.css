@@ -64,6 +64,7 @@
   padding: 4px;
   border-radius: 4px;
   margin: 5px;
+  background-color: #14213D;
 }
 
 .inputButton:hover {
@@ -109,6 +110,20 @@ legend {
   text-align: center;
   text-transform: uppercase;
   color: #14213D;
+}
+
+.contFrente {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgFrente {
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 30px;
+  border-radius: 20px;
+  border: 3px solid white;
 }
 
 .contenedorPreguntas {
