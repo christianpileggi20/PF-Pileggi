@@ -95,6 +95,21 @@ legend {
   border: #14213D;
 }
 
+.redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redesLogo {
+  padding: 10px;
+}
+
+.redesLogo:hover {
+  width: 90px;
+  height: 90px;
+}
+
 .historia {
   text-align: center;
 }
