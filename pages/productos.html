@@ -22,16 +22,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Lobster&display=swap"
         rel="stylesheet">
 
-    <title>Quienes somos - Distribuidora del Oeste</title>
+    <title>Productos - Distribuidora del Oeste</title>
 </head>
 
 <body class="containerFluid">
 
-
     <header>
         <a href="../index.html"><img src="../imagenes/logo-removebg-preview.png" class="img-fluid imgLogo"
                 alt="Logo de la empresa"></a>
-        <nav class="navbar navbar-expand-md barraUno">
+
+        <nav class="navbar  navbar-expand-md barraUno">
             <div class="container-fluid">
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -47,7 +47,7 @@
                             <a class="nav-link" href="../pages/picadas.html">Picadas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="../pages/quienessomos.html">Quienes somos</a>
+                            <a class="nav-link active" href="../pages/productos.html">Productos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../pages/preguntasfrecuentes.html">Preguntas frecuentes</a>
@@ -62,63 +62,71 @@
     </header>
 
 
-
     <main>
-        <div class="container-fluid contFrente">
-            <img src="../imagenes/frente.jpeg" class="img-fluid imgFrente" alt="Frente del local">
-        </div>
+        <h1>Nuestros productos</h1>
+
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-lg-9 col-xxl-9 col-md-6">
+
+                    <div id="carouselExampleControls" class="carousel slide picture" data-bs-ride="carousel"
+                        data-aos="fade-down">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../imagenes/quesoholanda.jpeg" class="d-block w-100 img-fluid"
+                                    alt="Horma de Queso Holanda">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../imagenes/hormaderoquefort.jpeg" class="d-block w-100 img-fluid"
+                                    alt="Horma de Queso Roquefort">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="../imagenes/salamemilan.jpeg" class="d-block w-100 img-fluid"
+                                    alt="Pieza de Salame tipo Milan">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../imagenes/bondiola.jpeg" class="d-block w-100 img-fluid"
+                                    alt="Pieza de Bondiola">
+                            </div>
 
 
-        <div class="contenedor">
-            <h1 class="historia">Nuestra historia</h1>
 
-            <p class="parrafoHistoria">Hola a todos! Nos presentamos ante el mundo, somos Distribuidora del Oeste.
-                Nuestra historia comienza con la vida misma, ya que el primer trabajo de uno de los integrantes de esta
-                familia fue en el
-                rubro chacinado. A partir de ahi, fueron mas de 30 años trabajados en el tema. Hemos tenido diferentes
-                locales, y hoy en dia
-                estamos muy emocionados y convencidos de que con la ayuda de ustedes, nos ira mas que bien.
-                Nuestro equipo esta integrado por nuestra propia familia, SI, es un negocio familiar y atendido por sus
-                dueños. No quedan
-                muchos de estos no? .....
-                Tratamos de superarnos dia a dia, y siempre buscamos expandirnos para ofrecerte mas y mas productos.
-                Si vienes a visitarnos podras hacer degustaciones de nuestros mas exquisitos fambres, lomitos,
-                quesos....
-                podras aprovechar
-                nuestras grandes promociones, ajustadas al bolsillo de hoy en dia.
-                Tambien tienes que saber que contaras con la posibilidad de abonar tu compra mediante <strong>
-                    MERCADOPAGO, EFECTIVO,
-                    TARJETA DE CREDITO o DEBITO.</strong>
-                Esperamos verte por aca muy pronto, cualquier duda o consulta no dudes en enviarnosla para poder
-                responderte
-                a la mayor
-                brevedad.
-                Gracias!
-                <br>
-            <p class="final">Familia de Distribuidora del Oeste</p>
-            </p>
 
-        </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 col-xxl-3 col-md-6 barraLateral" data-aos="fade-down">
+                    <aside>
+                        <p>Proximamente aqui podras encontrar mas informacion sobre nuestras actualizaciones diarias.
+                            Te enteraras de nuestros proximos sorteos, nueva informacion sobre el envio en zona oeste,
+                            sistema de fidelizacion y muchas mas cosas!
+                        </p>
+                    </aside>
+                </div>
+
+
+
+            </div>
+
     </main>
 
 
+    <div class="container containerFooter">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div class="container">
         <footer class="py-5">
             <div class="row">
 
@@ -128,15 +136,15 @@
                 <div class="col-6 col-md-2 mb-3">
                     <h2 class="myh2">Secciones</h2>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="../index.html" class="nav-link p-0 text-muted">Inicio</a>
+                        <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Inicio</a>
                         </li>
-                        <li class="nav-item mb-2"><a href="../pages/picadas.html"
+                        <li class="nav-item mb-2"><a href="pages/picadas.html"
                                 class="nav-link p-0 text-muted">Picadas</a></li>
-                        <li class="nav-item mb-2"><a href="../pages/quienessomos.html"
+                        <li class="nav-item mb-2"><a href="pages/quienessomos.html"
                                 class="nav-link p-0 text-muted">Quienes somos</a></li>
-                        <li class="nav-item mb-2"><a href="../pages/preguntasfrecuentes.html""
-                                class=" nav-link p-0 text-muted">Preguntas frecuentes</a></li>
-                        <li class="nav-item mb-2"><a href="../pages/contacto.html"
+                        <li class="nav-item mb-2"><a href="pages/preguntasfrecuentes.html"
+                                class="nav-link p-0 text-muted">Preguntas frecuentes</a></li>
+                        <li class="nav-item mb-2"><a href="pages/contacto.html"
                                 class="nav-link p-0 text-muted">Contacto</a></li>
                     </ul>
                 </div>
@@ -170,6 +178,27 @@
             </div>
         </footer>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
