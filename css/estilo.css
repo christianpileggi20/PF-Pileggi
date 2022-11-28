@@ -177,11 +177,6 @@ legend {
   font-size: 24px;
 }
 
-@media (min-width: 768px) {
-  aside {
-    color: aqua;
-  }
-}
 @media (max-width: 375px) {
   .formulario {
     width: 250px;
