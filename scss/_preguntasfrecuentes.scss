@@ -1,13 +1,11 @@
-.contenedorPreguntas {
-    display: flex;
-    justify-content: center;
-    font-size: $tam-fuente - 5px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0 auto;
-    padding: 20px;
+.containerPreguntas {
+    margin: 10px;
+    
+
 }
 
-.enlacesQuestions {
-    text-decoration: none;
-    color: white;
+
+
+.accordion {
+    --bs-accordion-active-color:  #14213D;
 }
